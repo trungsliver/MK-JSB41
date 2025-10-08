@@ -1,0 +1,27 @@
+body {
+    /* Chỉnh màu nền */
+    background-color: rgb(205, 230, 229);
+}
+
+img{
+    /* Chỉnh chiều cao */
+    height: 300px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 10px solid rgb(128, 95, 209);
+}
+
+h1{
+    /* Chỉnh màu chữ */
+    color: brown;
+    /* Đổi font chữ */
+    font-family: 'Gill Sans', sans-serif;
+}
+
+p{
+    /* Độ đậm nhạt */
+    font-weight: 600;
+    /* Cỡ chữ */
+    font-size: 20px;
+    /* Kiểu chữ */
+    font-style: italic;
+}
