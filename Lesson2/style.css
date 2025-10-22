@@ -1,0 +1,31 @@
+div{
+    /* căn lề giữa */
+    text-align: center;
+    /* màu nền */
+    background-color: rgb(217, 231, 236);
+    /* font chữ */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    /* màu chữ */
+    color: red;
+}
+
+p{
+    /* Cỡ chữ */
+    font-size: 16px;
+    /* Độ đậm nhạt */
+    font-weight: bold;
+}
+
+ul{
+    text-align: left;
+}
+
+a{
+    /* đổi màu chữ */
+    color: rgb(0, 0, 0);
+    /* bỏ gạch chân */
+    text-decoration: none;
+}
