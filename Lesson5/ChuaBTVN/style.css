@@ -1,0 +1,51 @@
+.menu {
+    position: absolute;
+    /* Màu chữ */
+    color: white;
+    /* Màu nền */
+    background-color: black;
+    /* Chiều ngang toàn bộ màn hình */
+    width: 100%;
+    /* Vị trí so với phần tử cha (body) */
+    top: 0;
+    left: 0;
+    /* Căn lề giữa */
+    text-align: center;
+    /* Khoảng cách từ nội dung (chữ) cho đến viền */
+    padding: 15px 0;
+}
+
+/* Static: nội dung */
+.noidung {
+    /* Khoảng cách đến các đối tượng khác */
+    margin-top: 80px;
+    /* Khoảng cách từ nội dung (chữ) cho đến viền */
+    padding: 40px;
+    /* Màu sắc */
+    color: black;
+    background-color: lightgray;
+}
+
+/* relative: nút quay lại đầu trang */
+.quaylai {
+    position: relative;
+    background-color: blue;
+    color: white;
+    padding: 15px 10px;
+    /* cho nút sang bên phải */
+    float: right;
+}
+
+/* Fixed: thông báo */
+.thongbao {
+    position: fixed;
+    /* Vị trí */
+    top: 50px;
+    right: 10px;
+    /* Chỉnh độ sâu */
+    z-index: 10;
+    /* Màu sắc */
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+}
