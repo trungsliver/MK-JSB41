@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Link CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">JSB41</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.vivere.co.id/uploads/articles/54/banner-merak.png" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://assets.architecturaldigest.in/photos/658e82c49704c0e4c5059514/master/w_1600%2Cc_limit/20230706_Revised%2520Set_1%2520(1).png"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.modernfurnishings.com/cdn/shop/articles/the-role-of-minimalism-in-modern-furniture-design-modern-studio.jpg?v=1717752151"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <h2 style="margin: 20px">Danh mục sản phẩm</h2>
+
+    <!-- container chứa các sản phẩm -->
+    <div class="container-items">
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIupEXS0BI-tX956tkm95S1CUB3GO9sCH8Qpy7Yk5GsBVEAr-TZOihgOIWvgWWIBrZSI&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa Mark</h5>
+                <p class="card-text">Đây là sofa Mark của thầy Trung</p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIupEXS0BI-tX956tkm95S1CUB3GO9sCH8Qpy7Yk5GsBVEAr-TZOihgOIWvgWWIBrZSI&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa Mark</h5>
+                <p class="card-text">Đây là sofa Mark của thầy Trung</p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIupEXS0BI-tX956tkm95S1CUB3GO9sCH8Qpy7Yk5GsBVEAr-TZOihgOIWvgWWIBrZSI&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa Mark</h5>
+                <p class="card-text">Đây là sofa Mark của thầy Trung</p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIupEXS0BI-tX956tkm95S1CUB3GO9sCH8Qpy7Yk5GsBVEAr-TZOihgOIWvgWWIBrZSI&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa Mark</h5>
+                <p class="card-text">Đây là sofa Mark của thầy Trung</p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIupEXS0BI-tX956tkm95S1CUB3GO9sCH8Qpy7Yk5GsBVEAr-TZOihgOIWvgWWIBrZSI&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa Mark</h5>
+                <p class="card-text">Đây là sofa Mark của thầy Trung</p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIupEXS0BI-tX956tkm95S1CUB3GO9sCH8Qpy7Yk5GsBVEAr-TZOihgOIWvgWWIBrZSI&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa Mark</h5>
+                <p class="card-text">Đây là sofa Mark của thầy Trung</p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIupEXS0BI-tX956tkm95S1CUB3GO9sCH8Qpy7Yk5GsBVEAr-TZOihgOIWvgWWIBrZSI&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa Mark</h5>
+                <p class="card-text">Đây là sofa Mark của thầy Trung</p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIupEXS0BI-tX956tkm95S1CUB3GO9sCH8Qpy7Yk5GsBVEAr-TZOihgOIWvgWWIBrZSI&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa Mark</h5>
+                <p class="card-text">Đây là sofa Mark của thầy Trung</p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <!-- footer.html -->
+    <footer class="footer bg-dark text-light pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+
+                <!-- Logo & About -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">Nội Thất LuxHome</h5>
+                    <p>Chuyên cung cấp các sản phẩm nội thất cao cấp, sang trọng và hiện đại. Mang đến không gian sống
+                        đẳng cấp cho mọi gia đình.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">Liên kết nhanh</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Trang chủ</a></li>
+                        <li><a href="#" class="footer-link">Sản phẩm</a></li>
+                        <li><a href="#" class="footer-link">Dịch vụ</a></li>
+                        <li><a href="#" class="footer-link">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">Thông tin liên hệ</h5>
+                    <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>123 Nguyễn Trãi, Hà Nội</p>
+                    <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>0123 456 789</p>
+                    <p class="mb-1"><i class="bi bi-envelope-fill me-2"></i>support@luxhome.vn</p>
+                </div>
+
+            </div>
+
+            <hr class="border-secondary">
+
+            <div class="text-center mt-3">
+                <p class="mb-0">© 2025 LuxHome Furniture. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
