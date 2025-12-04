@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Google Fonts</h2>
+    <p class="vt323">Bui Duc Trung</p>
+
+    <!-- Form -->
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <br>
+
+        <label for="dob">Ngày sinh</label>
+        <input type="date" name="dob" id="dob" required="true">
+
+        <br>
+
+        <label for="gender">Giới tính:</label>
+
+        <input type="radio" name="gender" value="male">
+        <label class="gender">Nam</label>
+        <input type="radio" name="gender" value="female">
+        <label class="gender">Nữ</label>
+        <input type="radio" name="gender" value="other">
+        <label class="gender">Khác</label>
+
+        <br>
+
+        <label for="siblings">Anh chị em:</label>
+        <input type="number" id="siblings" name="siblings" min="0">
+
+        <br>
+
+        <label for="avatar">Avatar:</label>
+        <input type="file" id="avatar" name="avatar">
+
+        <br>
+
+        <label for="color">Fav color:</label>
+        <input type="color" name="color" id="color">
+
+        <br>
+
+        <input type="checkbox" name="cb" id="cb" value="agree">
+        <label id="cb-agree" for="cb">I agree to Terms and Conditions</label>
+
+        <br>
+
+        <button type="submit">Submit</button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>

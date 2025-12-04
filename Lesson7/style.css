@@ -1,0 +1,27 @@
+.vt323 {
+  font-family: "VT323", monospace;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 22px;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+form input {
+    margin-top: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+.gender {
+    width: 50px;
+}
+
+#cb-agree {
+    width: fit-content;
+}
