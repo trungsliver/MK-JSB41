@@ -1,0 +1,106 @@
+/* ================== HEADER =================== */
+/* Thanh navbar */
+.custom-navbar {
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+/* Logo */
+.logo-img {
+    width: 45px;
+    height: auto;
+}
+
+.brand-text {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Link menu */
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333 !important;
+    margin-left: 12px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #b8860b !important; /* vàng nâu sang trọng */
+}
+
+/* Hiệu ứng khi active */
+.nav-item .nav-link.active {
+    color: #b8860b !important;
+    font-weight: 600;
+}
+
+/* Responsive chỉnh logo nhỏ lại */
+@media (max-width: 768px) {
+    .logo-img {
+        width: 38px;
+    }
+    .brand-text {
+        font-size: 1rem;
+    }
+}
+
+/* ======================== FOOTER ======================== */
+/* Footer tổng quan */
+.footer-section {
+    background: #1a1a1a;
+    color: #e6e6e6;
+    font-size: 0.95rem;
+}
+
+/* Mô tả */
+.footer-desc {
+    line-height: 1.6;
+}
+
+/* Icon mạng xã hội */
+.social-icons a {
+    color: #e6e6e6;
+    font-size: 1.3rem;
+    margin-right: 12px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #b8860b; /* vàng nâu sang trọng */
+}
+
+/* Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #e6e6e6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #b8860b;
+    padding-left: 4px;
+}
+
+/* Divider */
+.footer-divider {
+    border-color: #444;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Responsive tối ưu */
+@media (max-width: 768px) {
+    .footer-section h5 {
+        font-size: 1.1rem;
+    }
+}
