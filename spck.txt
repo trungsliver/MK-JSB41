@@ -1,0 +1,6 @@
+- Ý tưởng: website TMĐT bán giày bóng đá
+- web tham khảo: soccerstore.vn
+- Các trang: index, sản phẩm, thương hiệu, dịch vụ, hướng dẫn, giỏ hàng
+    + index: carousel, danh mục sản phẩm được quan tâm, hàng mới, hàng giảm giá
+    + sản phẩm: banner, giày, quả bóng đá, quần áo, phụ kiện
+    + Thương hiệu: danh sách các thương hiệu

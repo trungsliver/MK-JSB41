@@ -5,3 +5,5 @@ Các file có trong folder:
 - tracnghiem.txt (ghi các đáp án trắc nghiệm vào file này)
 - 3 file HTML: index.html tintuc.html chitiet.html
 - css (tùy nhu cầu)
+
+Link đề bài: shorturl.at/Wy22D
