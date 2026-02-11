@@ -5,5 +5,5 @@
     + sản phẩm: banner, giày, quả bóng đá, quần áo, phụ kiện
     + Thương hiệu: danh sách các thương hiệu
 
-- Slides:
+- Slides: done
 https://www.canva.com/design/DAHAXT4NS0s/cIs7bwFbkqHE8HtBYRvjHg/edit
